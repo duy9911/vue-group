@@ -1,7 +1,12 @@
 <template>
   <div class="login-form">
     <form>
-      <h3>Sign In</h3>
+      <div class="col logo">
+        <img src="../assets/logo.png" alt="" />
+      </div>
+      <div class="col">
+        <h3>Sign In</h3>
+      </div>
 
       <div class="form-group">
         <label>Email address</label>
@@ -45,13 +50,24 @@ export default {
   box-sizing: border-box;
 }
 
+.logo img {
+  width: 20%;
+  margin-left: 39%;
+}
+h3 {
+  text-align: center;
+}
 .login-form {
-  width: 50%;
-  margin: 20% 25%;
+  color: white;
+  /* width: 50%; */
+  /* margin: 20% 25%; */
   border: 5px solid sync;
   border-radius: 10px;
   padding: 10%;
   background: rgb(60, 179, 113, 0.8);
+  margin: auto;
+  width: 50%;
+  /* padding: 10px; */
 }
 body {
   background-image: url("../assets/tea.jpg");
@@ -61,5 +77,6 @@ body {
 }
 .btn {
   margin-top: 5%;
+  margin-left: 40%;
 }
 </style>
