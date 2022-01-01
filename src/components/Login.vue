@@ -48,6 +48,10 @@ export default {
 .login-form {
   width: 50%;
   margin: 20% 25%;
+  border: 5px solid sync;
+  border-radius: 10px;
+  padding: 10%;
+  background: rgb(60, 179, 113, 0.8);
 }
 body {
   background-image: url("../assets/tea.jpg");
@@ -55,7 +59,7 @@ body {
   display: flex;
   font-weight: 400;
 }
-.btn{
+.btn {
   margin-top: 5%;
 }
 </style>
